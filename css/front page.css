@@ -1,0 +1,85 @@
+body{   
+    background-image: url(../image/迪背景3-01.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    
+}
+
+#main_menu li a{
+    display: block;    
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#main_menu li a:hover{
+    color: rgb(235, 168, 168);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+
+body {
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+  
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.layer {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  transition: transform 0.4s;
+  transform: perspective(600px) scale(1) translateX(0) rotateY(0);
+  transform-style: preserve-3d;
+}
+
+nav {
+  vertical-align: center;
+}
+
+nav ul {
+  padding-left: 66.66%;
+  font-size: larger;
+ 
+  line-height: 2;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  
+  text-decoration: none;
+  color: #fff;
+}
+
+.front {
+  background: #fffbc1;
+  background-image: url(../image/場景期末.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+  
+}
+
+
+
+body:hover .front {
+  transform: perspective(700px) scale(0.5) translateX(-16.66%) rotateY(50deg);
+  
+}

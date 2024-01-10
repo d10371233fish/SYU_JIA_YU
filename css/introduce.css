@@ -1,0 +1,204 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.pos{
+    padding: 50px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 50;
+}
+.white{
+    background-color: rgba(106, 118, 144, 0.703);
+    border-radius: 15px;
+}
+
+#main_menu{
+    list-style: none;
+    padding: 0px;
+}
+#main_menu li{
+    display: inline-block;
+}
+#main_menu li a{
+    display: block;
+    padding: 10px 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#main_menu li a:hover{
+    color: rgb(214, 163, 163);
+}
+
+h1{
+    line-height: 0%;
+}
+.box .right{
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    bottom: 320px;
+    right: 150px;
+    justify-content: center;
+}
+.box .left{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    bottom: 320px;
+    right: 850px;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 23%;
+    color: #ffffff;
+    font-weight: bolder;
+    position: absolute;
+    
+}
+
+.bg_1{
+    background-image: url(../image/01.png);
+}
+.bg_2{
+    background-image: url(../image/1.jpg);
+}
+.bg_3{
+    background-image: url(../image/11.png);
+}
+.bg_4{
+    background-image: url(../image/10.jpg);
+}
+.bg_5{
+    background-image: url(../image/02.png);
+}
+.bg_6{
+    background-image: url(../image/2.jpg);
+}
+.bg_7{
+    background-image: url(../image/22.png);
+}
+.bg_8{
+    background-image: url(../image/20.jpg);
+}
+.bg_9{
+    background-image: url(../image/03.png);
+}
+.bg_10{
+    background-image: url(../image/3.jpg);
+}
+.bg_11{
+    background-image: url(../image/33.png);
+}
+.bg_12{
+    background-image: url(../image/30.jpg);
+}
+.bg_13{
+    background-image: url(../image/04.png);
+}
+.bg_14{
+    background-image: url(../image/4.jpg);
+}
+.bg_15{
+    background-image: url(../image/44.png);
+}
+.bg_16{
+    background-image: url(../image/40.jpg);
+}
+.bg_17{
+    background-image: url(../image/05.png);
+}
+.bg_18{
+    background-image: url(../image/5.jpg);
+}
+.bg_19{
+    background-image: url(../image/55.png);
+}
+.bg_20{
+    background-image: url(../image/50.jpg);
+}
+.bg_21{
+    background-image: url(../image/06.png);
+}
+.bg_22{
+    background-image: url(../image/6.jpg);
+}
+.bg_23{
+    background-image: url(../image/66.png);
+}
+.bg_24{
+    background-image: url(../image/60.jpg);
+}
+.bg_25{
+    background-image: url(../image/07.png);
+}
+.bg_26{
+    background-image: url(../image/7.jpg);
+}
+.bg_27{
+    background-image: url(../image/77.png);
+}
+.bg_28{
+    background-image: url(../image/70.jpg);
+}
+
+.fixed_bg, .infos{
+    position: relative;
+    height: 100%;
+}
+html, body{
+    height: 100%;
+}
+.fixed_bg{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+    color: #ffffff;
+    transform: translateX(-50%) translateY(-50%); 
+    text-align: center;
+}
+.vcenter{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.menu{
+    text-align: center;
+    margin: 15px 0px;
+}
+.menu a{
+    font-size: 20px;
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.fixed_div{
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    right: 8px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+.fixed_div a{
+    font-size: 25px;
+}
+

@@ -1,0 +1,90 @@
+
+body{
+    font-family: "Roboto Condensed";
+    background-image: url(../image/迪背景2_工作區域\ 1.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.box{
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.21);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+h1{
+    text-align: center;
+   
+}
+#main_menu{
+    list-style: none;
+    padding: 0px;
+}
+#main_menu li{
+    display: inline-block;
+}
+#main_menu li a{
+    display: block;
+    padding: 10px 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#main_menu li a:hover{
+    color: rgb(213, 204, 204);
+}
+nav{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    color: #edecec;
+    word-wrap: break-word
+}
+
+
+.button{
+    display: flex;
+}
+.btn {
+    position: relative;
+    min-width: 100px;
+    background: #FFFFFF;
+    border: 2px solid #111111;
+    overflow: hidden;
+    margin: auto
+    
+}
+
+.btn div,
+.btn:before {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    padding: 10px 10px;
+}
+.btn:before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translate(-100%, 0);
+}
+.btn:hover div {
+    opacity: 0;
+    transform: translate(100%, 0)
+}
+.btn:hover:before {
+    opacity: 1;
+    transform: translate(0, 0);
+}
